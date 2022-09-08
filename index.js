@@ -22,7 +22,7 @@ createCommands();
 
 
 // 解析终端指令
-program.parse(process.argv);
+program.parse(process.argv);//必须，把参数交过来进行解析
 
 
 
