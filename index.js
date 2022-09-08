@@ -18,7 +18,7 @@ program.version(require('./package.json').version, '-v,--version')      //不加
 helpOptions(); //--help是commander自带的，也可以自己配置
 
 // 创建命令
-createCommands(); //ckt create demo abc eee   ->    demo [ 'abc', 'eee' ]
+createCommands(); 
 
 
 // 解析终端指令
